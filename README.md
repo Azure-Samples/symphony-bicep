@@ -1,18 +1,12 @@
-# Symphony
+# Symphony Bicep Reference Implementation
+
+This repository contains a reference implementation project and was generated using [Symphony.](https://github.com/microsoft/symphony) Symphony configures IAC repositories with pipelines and settings needed to achieve CI/CD for Infrastructure as code. To create a repository configured with Symphony best practices, please visit the [Symphony repository](https://github.com/microsoft/symphony/blob/main/docs/GETTING_STARTED.md) to get a step by step guide to bootstrap a new project.
+
+This Symphony implementation features GitHub Actions as an Orchestrator and Bicep as the IAC tool.
 
 Symphony is a framework and set of patterns and best practices for developing, testing, and deploying infrastructure on Azure using Infrastructure as Code (IAC.) It includes modern DevOps practices for IAC  such as Main and Pull Request workflows, IaC Code Validation & Linting, Automated Testing, Security Scanning, Multi-environment deployments, modules dependencies and more.
 
 It is an enterprise-level CI/CD multi-orchestrator, multi-IaC framework that encapsulates those best practices and guidelines for developing, testing, and deploying infrastructure as code to host large-scale solutions and get your production ready in no time.
-
-Symphony supports the following IAC tools:
-
-- Terraform
-- Bicep
-
-Symphony supports the following Build Orchestrators:
-
-- Azure DevOps
-- GitHub
 
 ## Why use Symphony
 
@@ -41,10 +35,6 @@ An environment in Symphony is represented by a set of configuration files, each 
 ## Symphony Testing
 
 Symphony offers samples to write and execute both modules and end-to-end tests for the IaC module code and how the tests are integrated into the symphony workflows. Find more in the [Symphony Testing Document](./docs/TESTING.md)
-
-## Contributing
-
-Contributions to the project are welcome! Please follow [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
